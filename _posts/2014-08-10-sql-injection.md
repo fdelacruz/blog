@@ -7,7 +7,15 @@ categories: post
 SQL injection is when an SQL query is entered into a user input field in an application. 
 This often occurs online with website form fields, and is considered one of the top 10 web application vulnerabilities by the Open Web Application Security Project. 
 {{ more }}
-An example of a simple SQL query used for injection is: SELECT * FROM users WHERE name = '' OR '1'='1';. As 1=1, this will always evaluate to TRUE and will be executed.  
+An example of a simple SQL query used for injection is:
+
+{% highlight sQL %}
+
+    SELECT * FROM users WHERE name = '' OR '1'='1';
+
+{% endhighlight %}
+
+As 1=1, this will always evaluate to TRUE and will be executed.  
 
 There are lots of things that can happen with injected SQL code. Some of them may be invisible to the attacker, such as deleting certain parts of the database. 
 Other attacks can take advantage of or access parts of the database that they shouldn't have access to (such as signing into a website with a different user's ID).  
