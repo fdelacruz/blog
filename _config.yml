@@ -10,4 +10,4 @@ github_username:  fdelacruz
 # Build settings
 markdown: kramdown
 
-excerpt_separator: "<!-- more -->"
+excerpt_separator: "{{ more }}"

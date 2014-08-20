@@ -12,7 +12,7 @@ categories: post
 *    Self-knowledge
 
 Commitment is very important to me because you need a degree of it in order to accomplish anything in life. Call it grid, call it persintance, but unless you whole-heartedly invested nothing is going to happen.
-
+{{ more }}
 In general, I try to live up to these values:
 
 *    Commitment: 5 out of 5   

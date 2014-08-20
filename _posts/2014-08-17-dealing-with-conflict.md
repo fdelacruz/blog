@@ -7,7 +7,7 @@ categories: post
 Life could be traumatic, shocking, even terrible. We are ALL "damaged" goods, by
 our experiences in it. We all get our hearts and feelings broken one way or
 another. The difference lies in how we react to these inevitable events.
-
+{{ more }}
 According to Dr. Sylvan one way to deal is shame. She states tha shame is "a
 protective response to keep us connected to the group rather than wondering off
 dangerously by ourselves.It has been given to us to help us survive and to

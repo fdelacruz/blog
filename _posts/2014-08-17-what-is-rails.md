@@ -6,7 +6,7 @@ categories: post
 ---
 
 Ruby on Rails (often referred to as simply Rails) is an open source web application framework written in Ruby. It was created by David Heinemeier Hansson while working on the project management tool, Basecamp. He open sourced it in July of 2004.
-
+{{ more }}
 Is a full-stack framework that emphasizes the use of well-known software engineering patterns and paradigms, including convention over configuration (CoC), don't repeat yourself (DRY), the active record pattern, and model–view–controller (MVC)
 
 Convention over configuration which one hears a lot when one starts working with the framework means a developer only needs to specify unconventional aspects of the application. For example, if there's a class Sale in the model, the corresponding table in the database is called “sales” by default. It is only if one deviates from this convention, such as calling the table “sale”, that one needs to write code regarding these names.
