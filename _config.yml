@@ -7,6 +7,9 @@ url: "http://fdelacruz.github.io" # the base hostname & protocol for your site
 twitter_username: fdelacruz
 github_username:  fdelacruz
 
+include:  ['_pages']
+relative_permalinks: false
+
 # Build settings
 markdown: kramdown
 
