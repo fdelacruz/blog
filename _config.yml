@@ -11,3 +11,6 @@ github_username:  fdelacruz
 markdown: kramdown
 
 excerpt_separator: "{{ more }}"
+
+paginate: 5
+paginate_path: "/page:num"
