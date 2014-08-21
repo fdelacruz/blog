@@ -10,10 +10,10 @@ github_username:  fdelacruz
 include:  ['_pages']
 relative_permalinks: false
 
-# Build settings
-markdown: kramdown
-
 excerpt_separator: "{{ more }}"
 
 paginate: 5
 paginate_path: "/page:num"
+
+# Build settings
+markdown: kramdown
