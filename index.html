@@ -8,16 +8,19 @@ layout: default
 
   <ul class="post-list">
 <!-- This loops through the paginated posts -->
-    {% for post in paginator.posts %}
+{% for post in paginator.posts %}{% capture readtime %}{{ post.content | number_of_words | plus:91 | divided_by:180 }}{% endcapture %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a href="{{ post.url  | prepend: site.baseurl }}#disqus_thread" data-disqus-identifier="{{ post.path | split:'/' | last | cgi_escape }}">Comments</a>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <span class="post-meta">
+          {{ post.date | date: "%b %-d, %Y" }}
+          {% if readtime == '0' %} &lt; 1{% else %}{{ readtime }}{% endif %} min. read &bull;
+          <a href="{{ post.url  | prepend: site.baseurl }}#disqus_thread" data-disqus-identifier="{{ post.path | split:'/' | last | cgi_escape }}">Comments</a>
+        </span>
         <p class="post-excerpt">{{ post.excerpt | strip_html }}&hellip; (<a href="{{ post.url | prepend: site.baseurl }}">Read More</a>)</p>
       </li>
-    {% endfor %}
+{% endfor %}
   </ul>
 
 <!-- Pagination links -->
