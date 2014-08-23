@@ -1,7 +1,6 @@
 # Site settings
 title: This is my blog
 email: helloquico@gmail.com
-description: This is where I share my work. When I'm not making beautiful things, I'm practicing yoga, biking, drinking good coffee, and more.
 baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url: "http://fdelacruz.github.io" # the base hostname & protocol for your site
 twitter_username: fdelacruz
